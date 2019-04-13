@@ -1,4 +1,6 @@
 # mate-1.22 for Funtoo Linux 1.3
+** WORK IN PROGRESS **
+
 This repo contain ebuilds of **MATE Desktop Environment 1.22 stable release**.
 Versions updated according http://pub.mate-desktop.org/releases/1.22/
 
@@ -21,3 +23,6 @@ priority = 2
 ego sync
 ```
 
+**Upgrade steps from Mate 1.18 or Mate 1.20:**
+- emerge --oneshot =mate-base/mate-common-1.22.0
+- emerge --update --deep --newuse mate
